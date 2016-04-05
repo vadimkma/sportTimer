@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sport Timer</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="timerForm">
+			<div class="fieldFrom">
+				<button name="start" class="red" onclick="run()">Start</button>
+				<button name="stop" class="red" onclick="stopTimer()">Stop</button>
+			</div>
+			<div class="fieldFrom">
+				<button name="lap" onclick="lapTimer()">Lap</button>
+				<button name="clear" onclick="clearTimer()">Clear</button>
+			</div>
+		</div>
+		<div id="timeTimer">
+			00:00:00.0
+		</div>
+		<div>
+			<ol id="timeLaps">
+				
+			</ol>
+		</div>
+	</div>
+</body>
+</html>
+
+
+
